@@ -53,6 +53,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\fluent-command-line-parser\FluentCommandLineParser\FluentCommandLineParser.csproj">
+      <Project>{74cdfa61-81d8-40f2-b536-949baba15d3e}</Project>
+      <Name>FluentCommandLineParser</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
